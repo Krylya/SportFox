@@ -1,0 +1,30 @@
+.team__wrap {
+  box-sizing: border-box;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: $light-purple;
+}
+.team__h3 {
+  margin-bottom: 30px;
+}
+.team__icons {
+  margin: 80px 0 40px 0;
+  display: flex;
+}
+.team__icon {
+  width: 80px;
+  margin-right: 40px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+// @media (min-width:768px)
+@media ($tablet-width) {
+  .team__wrap {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+  .team__h3 {}
+
+}
