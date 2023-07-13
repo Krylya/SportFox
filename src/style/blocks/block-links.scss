@@ -1,0 +1,20 @@
+.block-links__wrap {
+  padding: 80px 0;
+}
+.block-links__h2 {
+  color: $deep-purple;
+  text-transform: initial;
+  font-size: 32px;
+  text-align: center;
+}
+
+// @media (min-width:768px)
+@media ($tablet-width) {
+
+  .block-links__h2 {
+    font-size: 52px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+}
